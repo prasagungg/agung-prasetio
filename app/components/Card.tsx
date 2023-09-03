@@ -1,19 +1,29 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 const Card = ({
   img,
   title,
   description,
   stacks,
+  link,
 }: {
   img: string;
   title: string;
   description: string;
   stacks: string[];
+  link?: string;
 }) => {
   return (
     <div className="w-full bg-white border border-gray-200 shadow-md dark:bg-zinc-800/50 dark:border-gray-800 relative">
-      <img className="w-full h-45 sm:h-35" src={img} alt={title} />
+      {link ? (
+        <Link href={link} target="_blank">
+          <img className="w-full h-45 sm:h-35" src={img} alt={title} />
+        </Link>
+      ) : (
+        <img className="w-full h-45 sm:h-35" src={img} alt={title} />
+      )}
       <div className="p-3 pb-8">
         <h5 className="mb-2 text-xl mt-0 font-bold tracking-tight text-gray-900 dark:text-white">
           {title}

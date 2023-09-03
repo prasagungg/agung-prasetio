@@ -12,6 +12,7 @@ export default function Projects() {
             img={item.img}
             description={item.description}
             stacks={item.stacks}
+            link={item.link}
           />
         ))}
       </div>
