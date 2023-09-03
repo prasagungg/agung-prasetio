@@ -24,7 +24,7 @@ export default function Contact() {
       </div>
       <div className="flex items-center gap-3 mb-5">
         <GitHub />
-        <a href="https://www.instagram.com/prasagungg" target="_blank">
+        <a href="https://github.com/prasagungg" target="_blank">
           prasagungg
         </a>
       </div>
