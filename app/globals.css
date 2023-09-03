@@ -20,5 +20,5 @@ body {
 }
 
 p {
-  @apply tracking-wide leading-8 my-4 text-xl;
+  @apply tracking-wide leading-6 md:leading-8 my-2 md:my-4 text-sm md:text-xl;
 }
