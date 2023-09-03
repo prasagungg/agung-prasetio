@@ -12,7 +12,7 @@ const Navbar = () => {
         <h3 className="text-xl my-0 font-play">agungprasetio</h3>
       </div>
       <div className="mt-4">
-        <ul className="flex decoration-none list-none gap-5 justify-center p-0 flex-col md:flex-row text-right pr-8 lg:p-0 lg:text-center">
+        <ul className="flex decoration-none list-none gap-5 justify-center p-0 flex-row text-right pr-8 lg:p-0 lg:text-center">
           <li>
             <Link
               className={` ${
