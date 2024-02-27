@@ -6,8 +6,8 @@ export default function Contact() {
       <div className="flex items-center gap-3 mb-5">
         <Mail />
 
-        <a href="mailto:agungprasetiodev@gmail.com">
-          agungprasetiodev@gmail.com
+        <a href="mailto:agungprasetio878@gmail.com">
+          agungprasetio878@gmail.com
         </a>
       </div>
       <div className="flex items-center gap-3 mb-5">
