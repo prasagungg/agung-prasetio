@@ -8,6 +8,33 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Honeytrap ",
+    img: "/images/projects/honeytrap.png",
+    description: "Honeytrap Landing Page",
+    stacks: ["ReactJs", "Tailwind CSS"],
+  },
+  {
+    title: "Protoslabs",
+    img: "/images/projects/protos-labs.png",
+    description:
+      "Web Application for Risk management considers threats, vulnerabilities, controls, assets, and financial loss data.",
+    stacks: ["React", "Material UI", "React Query"],
+  },
+  {
+    title: "Axme IO",
+    img: "/images/projects/axme.png",
+    description: "Web Application for chatbot for whatsapp",
+    stacks: ["NextJs", "NestJs", "Material UI", "PgSQL"],
+  },
+  {
+    title: "Xcidic Internal Website",
+    img: "/images/projects/xcidic-internal-website.png",
+    description:
+      "Web Application for company profile with CMS for managing content and job apply",
+    stacks: ["NextJs", "NestJs", "Material UI", "PgSQL"],
+    link: "https://xcidic.com",
+  },
+  {
     img: "/images/projects/coming-soon.png",
     title: "KPR WEB",
     description: "Web application for manage kpr payment",
