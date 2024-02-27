@@ -36,6 +36,16 @@ const Navbar = () => {
           <li>
             <Link
               className={` ${
+                pathname === "/articles" ? "border-b-2" : "text-gray-200"
+              } p-2`}
+              href="/articles"
+            >
+              Articles
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={` ${
                 pathname === "/contact" ? "border-b-2" : "text-gray-200"
               } p-2`}
               href="/contact"

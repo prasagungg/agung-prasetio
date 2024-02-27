@@ -1,6 +1,3 @@
-import Card from "./components/Card";
-import projects from "./data/projects";
-
 export default function Home() {
   return (
     <div className="container px-3 mx-auto max-w-2xl">
