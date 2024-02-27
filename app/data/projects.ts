@@ -61,7 +61,7 @@ const projects: Project[] = [
   },
   {
     title: "Xcidic Internal Website",
-    img: "/images/projects/xcidic-internal-website.png",
+    img: "/images/projects/xcidicwebsite.png",
     description:
       "Web Application for company profile with CMS for managing content and job apply",
     stacks: ["NextJs", "NestJs", "Material UI", "PgSQL"],
