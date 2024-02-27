@@ -8,6 +8,39 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Web View Survey",
+    img: "/images/projects/survey.png",
+    description: "Web view for about electric vehicle lifestyle. ",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Web View IIMS",
+    img: "/images/projects/iims.png",
+    description:
+      "Web view for claim voucher in Indonesia International Motor Show (IIMS)",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Web View Gelegar 2023",
+    img: "/images/projects/gelegar.png",
+    description: "Web view for livestream Gelegar 2023 Event",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "BOT Pengaduan",
+    img: "/images/projects/bot-pengaduan.png",
+    description: "Web application for handle Complaint in PLN Mobile",
+    stacks: ["Vue", "Bootraps"],
+  },
+  {
+    title: "Damang AI",
+    img: "/images/projects/damang.png",
+    description:
+      "Web chat Artificial Intelligence for providing answers related to health consultation.",
+    stacks: ["Laravel", "Tailwind CSS"],
+    link: "https://github.com/prasagungg/damang.ai",
+  },
+  {
     title: "Honeytrap ",
     img: "/images/projects/honeytrap.png",
     description: "Honeytrap Landing Page",
