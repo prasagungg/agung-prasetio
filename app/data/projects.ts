@@ -8,6 +8,56 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Backoffice Lentara Biller",
+    img: "/images/projects/lentera-biller.png",
+    description: "Web Application for manage data payment in Lentara Biller",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Backoffice Lentara Payment Gateway",
+    img: "/images/projects/lentera-pg.png",
+    description:
+      "Web Application for manage data payment in Lentara Payment Gateway",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "PLN For Business",
+    img: "/images/projects/pln-for.png",
+    description: "Web Application for pay electricity in PLN for business",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "X Dashboard Datagateway",
+    img: "/images/projects/x-dashboard.png",
+    description: "Web Application for monitoring transaction in Datagateway",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Backoffice Datagateway",
+    img: "/images/projects/dg-bot.png",
+    description: "Web Application for manage data in Datagateway",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Developer Portal Datagateway",
+    img: "/images/projects/dg-portal.png",
+    description: "Web Application for register developer in Datagateway",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Backoffice Koperasi Merah Putih",
+    img: "/images/projects/kdmp.png",
+    description:
+      "Web application for monitoring and manage data transaction in Koperasi Desa Merah Putih",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
+    title: "Survey Koperasi Merah Putih",
+    img: "/images/projects/survey-kdmp.png",
+    description: "Web view for input result survey Koperasi Desa Merah Putih",
+    stacks: ["Vue", "Tailwind CSS"],
+  },
+  {
     title: "Web View Survey",
     img: "/images/projects/survey.png",
     description: "Web view for about electric vehicle lifestyle. ",
@@ -27,7 +77,7 @@ const projects: Project[] = [
     stacks: ["Vue", "Tailwind CSS"],
   },
   {
-    title: "BOT Pengaduan",
+    title: "Backoffice Pengaduan",
     img: "/images/projects/bot-pengaduan.png",
     description: "Web application for handle Complaint in PLN Mobile",
     stacks: ["Vue", "Bootraps"],
